@@ -667,5 +667,24 @@ const stickWaffles = [
   .hero-content {
     padding: 2rem;
   }
+
+  .hero-decorative {
+    width: 140px;
+    z-index: 3;
+    max-width: 40vw;
+  }
+
+  .hero-decorative.left {
+    top: 26%;
+    left: -20px;
+    transform: rotate(-10deg);
+  }
+
+  .hero-decorative.right {
+    top: auto;
+    bottom: 10%;
+    right: -20px;
+    transform: rotate(10deg);
+  }
 }
 </style>
